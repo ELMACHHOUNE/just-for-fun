@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb3054a2cf4997468c82cc3a43cac39, type: 3}
+  m_Name: allal
+  m_EditorClassIdentifier: LWalida.Runtime::LWalida.DialogueData
+  dialogueId: allal
+  speakerName: Allal
+  startNodeId: allal_intro
+  nodes:
+  - id: allal_intro
+    speakerName: Allal
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: Zohra? Of course I remember her. She used to run through this street every
+      morning.
+    nextNodeId: 
+    choices:
+    - text: Do you remember anything else about her?
+      nextNodeId: allal_memory
+    - text: I should let you get back to work.
+      nextNodeId: allal_goodbye
+    endConversation: 0
+    awardMemoryId: 
+    awardFlag: 
+  - id: allal_memory
+    speakerName: Allal
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: She said the medina sounded like music.
+    nextNodeId: 
+    choices:
+    - text: Would you mind if I recorded the sound?
+      nextNodeId: allal_record
+    - text: Thank you, Allal.
+      nextNodeId: allal_thanks
+    endConversation: 0
+    awardMemoryId: 
+    awardFlag: 
+  - id: allal_record
+    speakerName: Allal
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: Of course, son. Some things are worth keeping.
+    nextNodeId: 
+    choices: []
+    endConversation: 1
+    awardMemoryId: 
+    awardFlag: recording_unlocked
+  - id: allal_thanks
+    speakerName: Allal
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: Come back if you want to listen. The street is generous today.
+    nextNodeId: 
+    choices: []
+    endConversation: 1
+    awardMemoryId: 
+    awardFlag: 
+  - id: allal_goodbye
+    speakerName: Allal
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: Take care, son. And mind the cats.
+    nextNodeId: 
+    choices: []
+    endConversation: 1
+    awardMemoryId: 
+    awardFlag: 

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40519248305c7b74c9b209dc18dafd79, type: 3}
+  m_Name: AssetCatalog
+  m_EditorClassIdentifier: LWalida.Runtime::LWalida.AssetCatalog
+  memories:
+  - {fileID: 11400000, guid: 33d52328fa8e805499e5152b0410276b, type: 2}
+  - {fileID: 11400000, guid: 315dbaf008dbc5c448c798c6fb589f7a, type: 2}
+  - {fileID: 11400000, guid: 4287b6ba410908540ba125101e07ad6f, type: 2}
+  - {fileID: 11400000, guid: 19ac2144ff8fa0d4591d46197993639b, type: 2}
+  aminaDialogue: {fileID: 11400000, guid: a9d9bb2ae14d966498d130cddf8e79b9, type: 2}
+  aminaAfterDialogue: {fileID: 11400000, guid: 036ef80a0084b7f42ad2dd817b1a995d, type: 2}
+  allalDialogue: {fileID: 11400000, guid: 8a74d36ba98d8ef43a878f6418a2ef4d, type: 2}
+  allalAfterDialogue: {fileID: 11400000, guid: d747687440398fe4fb3a8fb14708d522, type: 2}
+  envCafe: {fileID: 21300000, guid: 9b28c205883d81841a730f2f9acee80c, type: 3}
+  envOudaya: {fileID: 21300000, guid: 351b52075792b8a4bbd3cc0d1f79e667, type: 3}
+  envSouk: {fileID: 21300000, guid: 0bcd414eab0060449b147cf5dfe066ed, type: 3}
+  envHassan: {fileID: 21300000, guid: 0e1aecabc305b9f40862a0bdebf9d9d9, type: 3}
+  envHome: {fileID: 21300000, guid: e36faf85064a6f147ac9d60c74bee727, type: 3}
+  skyCafe: {fileID: 21300000, guid: 12fbc5e8ca5f37f44a1559543fa9458b, type: 3}
+  skyOudaya: {fileID: 21300000, guid: eae7b5a1633066a449bfbfbdf1bbdb64, type: 3}
+  skySouk: {fileID: 21300000, guid: 11ebebdd97ae8864a8d456fdb58f1d1e, type: 3}
+  skyHassan: {fileID: 21300000, guid: 4a29ce89b5c16f54ebfc7318288f624c, type: 3}
+  skyHome: {fileID: 21300000, guid: 2f9d63e956aaf0e4dbd61e9f1d28475f, type: 3}
+  farCafe: {fileID: 21300000, guid: e45cce17db3a5df478c63d5c9a4fb316, type: 3}
+  farOudaya: {fileID: 21300000, guid: 4561bda6a28fb264385b95d6e4e4e975, type: 3}
+  farSouk: {fileID: 21300000, guid: f7c7252d74c09374ab284819da39556f, type: 3}
+  farHassan: {fileID: 21300000, guid: ec910c0c8d9bb284b8992da9a4430a52, type: 3}
+  farHome: {fileID: 21300000, guid: a59e883dd1a55a24ba69186c53a36e60, type: 3}
+  groundStrip: {fileID: 21300000, guid: 5030b3ad62b213d40aa720687efa4c65, type: 3}
+  playerIdle: {fileID: 21300000, guid: 75380a24a6119144dba22819a836021c, type: 3}
+  aminaIdle: {fileID: 21300000, guid: a4b9d5865bba22b468335fa573b02fd8, type: 3}
+  allalIdle: {fileID: 21300000, guid: b300edacd039c8044ac410863a09667f, type: 3}
+  neighborIdle: {fileID: 21300000, guid: eaf44c7f834f08440a0890a691d34603, type: 3}
+  portraitPlayer: {fileID: 21300000, guid: 2e14522ce69a0f64fa23f124eedb3dad, type: 3}
+  portraitAmina: {fileID: 21300000, guid: 00aad4e9433e4f849bbb470c694bb4fa, type: 3}
+  portraitAllal: {fileID: 21300000, guid: 3c97f727785003849bc2fafc5528ff42, type: 3}
+  portraitNeighbor: {fileID: 21300000, guid: a32367eb63f78be42a4beb1173f37c32, type: 3}
+  doorCorrect: {fileID: 21300000, guid: 249e27dcfe4122e4ca9a427fb39b1d79, type: 3}
+  doorWrong01: {fileID: 21300000, guid: fabaa158c0a274147b2152b3f06957e7, type: 3}
+  doorWrong02: {fileID: 21300000, guid: bcd45a5f31368784d8cb42ee6e8c9502, type: 3}
+  photoProp: {fileID: 21300000, guid: 19bdf415e5abef749b03af0aec9e6f20, type: 3}
+  teaSet: {fileID: 21300000, guid: 6fa943a7cc3fdf5498784472ab5d578c, type: 3}
+  flowerpot: {fileID: 21300000, guid: d4355e5979352ab49a395cc649acd29e, type: 3}
+  bougainvillea: {fileID: 21300000, guid: 828893e6e330d514faf79925e233a094, type: 3}
+  stall: {fileID: 21300000, guid: 79c5f5ba344cae04faf014767890530b, type: 3}
+  exitMarker: {fileID: 21300000, guid: 4a31cb35287cd4b4ba3ef92bb1259df7, type: 3}
+  soundMarker: {fileID: 21300000, guid: 41ed482beea061d489fbf827563943c9, type: 3}
+  referencePhoto: {fileID: 21300000, guid: 348ba2c3db25aac49ba6beb3b2203054, type: 3}
+  memoryCafe: {fileID: 21300000, guid: de21e1aa99bcc6d4184d8af02a78fe95, type: 3}
+  memoryDoor: {fileID: 21300000, guid: 3a6d8b3e44fa8f24ea322b369afe13d8, type: 3}
+  memoryAmina: {fileID: 21300000, guid: 5e2b666704b252b4993403bb75fb41fc, type: 3}
+  memorySouk: {fileID: 21300000, guid: 0e9f7251314fdc944b0dedd1f844c8b5, type: 3}
+  logoEmblem: {fileID: 21300000, guid: 7feb80e75a9ced141b0f6229afbbeaa1, type: 3}
+  titleArabic: {fileID: 0}
+  menuBackground: {fileID: 21300000, guid: ccc23a72560ab02469dd8bcc55483054, type: 3}
+  panelDark: {fileID: 21300000, guid: e63d966362c426f48a5876451bf9a9a0, type: 3}
+  panelLight: {fileID: 21300000, guid: 782cc519465b348458a8efca78ab0ca2, type: 3}
+  paperTexture: {fileID: 21300000, guid: be3f5afe287332940867cebce8f247aa, type: 3}
+  zelligePattern: {fileID: 21300000, guid: f578003dd975dab479179faae9cf1070, type: 3}
+  vignette: {fileID: 21300000, guid: 5ae4eccacf9d77848aabf68b4ae469be, type: 3}
+  grain: {fileID: 21300000, guid: 1d59aac94f848ff498e44cb693f7656c, type: 3}
+  iconCamera: {fileID: 21300000, guid: cfe7f365973d423468e05efe41499216, type: 3}
+  iconJournal: {fileID: 21300000, guid: 6ed28508958a27947b1841c8d8b298b6, type: 3}
+  iconRecord: {fileID: 21300000, guid: 451106b87257be14296100bb15129eda, type: 3}
+  iconLock: {fileID: 21300000, guid: 89e02f7368fdf224db1a33e6498bdc84, type: 3}
+  iconAudio: {fileID: 21300000, guid: f42e0331ffa0fc545a215325a2c74627, type: 3}
+  whitePixel: {fileID: 21300000, guid: af12403568febfa42be065fd319fab0e, type: 3}
+  menuMusic: {fileID: 8300000, guid: b4e7a3e4910b6a14d84a06947ba2dcd8, type: 3}
+  explorationMusic: {fileID: 8300000, guid: d9362fe68db09cd4c87dd4d03b4031ca, type: 3}
+  endingMusic: {fileID: 8300000, guid: e440f27fced9b264286a4955d927c782, type: 3}
+  ambienceCafe: {fileID: 8300000, guid: d77fb66e17f9a6044bb4ce125aa95a1d, type: 3}
+  ambienceOudaya: {fileID: 8300000, guid: 3c3c12d2538299f4a8375093b0d36ff7, type: 3}
+  ambienceSouk: {fileID: 8300000, guid: 3c1b07f575cb04946881cce7f216220d, type: 3}
+  ambienceHassan: {fileID: 8300000, guid: b0e1465d3ab0d624aaf85ca1c0d1e25e, type: 3}
+  ambienceHome: {fileID: 8300000, guid: 9314d37c894834341aef2c174db5ed68, type: 3}
+  sfxShutter: {fileID: 8300000, guid: 03f25cb515b65e342918f54109d38d74, type: 3}
+  sfxKnock: {fileID: 8300000, guid: 0f04d021877877946a02df0d4126060d, type: 3}
+  sfxFootstep: {fileID: 8300000, guid: 6b11fe54df1166e47aa35222e7e83a2c, type: 3}
+  sfxUiClick: {fileID: 8300000, guid: d1fa72c6049621d4eaec9c4fb0512b67, type: 3}
+  sfxMemoryUnlock: {fileID: 8300000, guid: 2141662b7f0b84048b7e9a14b77933da, type: 3}
+  sfxRecordComplete: {fileID: 8300000, guid: 4c1dd5f3f55f583498c1440f767bb0d3, type: 3}
+  playerPrefab: {fileID: 1641523686270077952, guid: 5bfe7c44b9338434fa1caf078b836b04, type: 3}
+  npcPrefab: {fileID: 8790808163620792620, guid: 6ccd5ae6f65b5284cb394ab48f8ce1bf, type: 3}
+  doorPrefab: {fileID: 1731145244524787629, guid: bf9b6d1b546e3f54ca15dd1d22d42abd, type: 3}
+  propPrefab: {fileID: 7798076531344793886, guid: 64e0291047563634dbce07fa4494fe2b, type: 3}
+  exitPrefab: {fileID: 8446610404852805331, guid: 22a3c04715c957d46ac6f3fbcff46ab1, type: 3}
+  zonePrefab: {fileID: 4110154373607485718, guid: 51bd6d24a1cdeb243a13786597678364, type: 3}

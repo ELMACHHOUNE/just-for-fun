@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb3054a2cf4997468c82cc3a43cac39, type: 3}
+  m_Name: amina
+  m_EditorClassIdentifier: LWalida.Runtime::LWalida.DialogueData
+  dialogueId: amina
+  speakerName: Lalla Amina
+  startNodeId: amina_intro
+  nodes:
+  - id: amina_intro
+    speakerName: Lalla Amina
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: Hello, son. Are you looking for something?
+    nextNodeId: 
+    choices:
+    - text: Actually, yes. I'm looking for this house.
+      nextNodeId: amina_photo
+    - text: No, I'm just looking around.
+      nextNodeId: amina_goodbye
+    endConversation: 0
+    awardMemoryId: 
+    awardFlag: 
+  - id: amina_goodbye
+    speakerName: Lalla Amina
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: Of course, son. Take your time. These streets have many stories.
+    nextNodeId: 
+    choices: []
+    endConversation: 1
+    awardMemoryId: 
+    awardFlag: 
+  - id: amina_photo
+    speakerName: Lalla Amina
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: Ah, yes! That's the house. But it's been empty for a long time.
+    nextNodeId: 
+    choices:
+    - text: I know. I'm collecting my mother's childhood memories.
+      nextNodeId: amina_mother
+    - text: Thank you.
+      nextNodeId: amina_thanks
+    endConversation: 0
+    awardMemoryId: 
+    awardFlag: 
+  - id: amina_thanks
+    speakerName: You
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: Thank you, Lalla. I'll come back if I find the courage.
+    nextNodeId: 
+    choices: []
+    endConversation: 1
+    awardMemoryId: 
+    awardFlag: 
+  - id: amina_mother
+    speakerName: Lalla Amina
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: Your mother?
+    nextNodeId: 
+    choices:
+    - text: Zohra. She used to live here.
+      nextNodeId: amina_zohra
+    - text: It's the last photo of her childhood neighborhood.
+      nextNodeId: amina_hint
+    endConversation: 0
+    awardMemoryId: 
+    awardFlag: 
+  - id: amina_hint
+    speakerName: Lalla Amina
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: Tell me her name when you're ready.
+    nextNodeId: 
+    choices: []
+    endConversation: 1
+    awardMemoryId: 
+    awardFlag: 
+  - id: amina_zohra
+    speakerName: Lalla Amina
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: Zohra? Oh, the memories! She used to run through these streets. How is
+      she doing these days?
+    nextNodeId: 
+    choices:
+    - text: Thank God. She's a little unwell.
+      nextNodeId: amina_end
+    endConversation: 0
+    awardMemoryId: 
+    awardFlag: 
+  - id: amina_end
+    speakerName: Lalla Amina
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    text: May God make things easy for you, son.
+    nextNodeId: 
+    choices: []
+    endConversation: 1
+    awardMemoryId: amina_01
+    awardFlag: 
