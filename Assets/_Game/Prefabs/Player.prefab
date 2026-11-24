@@ -117,7 +117,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1641523686270077952}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be8e5d63522f0ea4cb6e7d3ca13f55ae, type: 3}
+  m_Script: {fileID: 11500000, guid: e1efcc96e5211c244a0ba6a022e59a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: LWalida.Runtime::LWalida.PlayerController
   moveSpeed: 4.2

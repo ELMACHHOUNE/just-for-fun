@@ -101,7 +101,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1731145244524787629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d653171844f403b489c8890e9d91d2ca, type: 3}
+  m_Script: {fileID: 11500000, guid: a2fcdc6553ef1e64b9115d0fbc8f937c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: LWalida.Runtime::LWalida.PhotoDoor
   displayName: Object

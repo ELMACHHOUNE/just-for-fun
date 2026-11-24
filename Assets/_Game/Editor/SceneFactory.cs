@@ -37,12 +37,19 @@ namespace LWalida.EditorTools
             var level = LevelCatalog.Get(sceneId);
             var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
 
+            catalog = AssetDatabase.LoadAssetAtPath<AssetCatalog>(LWalidaPaths.CatalogPath);
+
             var bootstrapGo = new GameObject("SceneBootstrap");
             var bootstrap = bootstrapGo.AddComponent<SceneBootstrap>();
             bootstrap.SetSceneId(sceneId);
 
             if (!level.IsMenu && !level.IsCredits)
             {
+                Debug.Log("[LWalida Diagnose] Compose " + sceneId +
+                          " catalog=" + (catalog != null) +
+                          " playerIdle=" + (catalog != null && catalog.playerIdle != null) +
+                          " envCafe=" + (catalog != null && catalog.envCafe != null) +
+                          " playerPrefab=" + (catalog != null && catalog.playerPrefab != null));
                 LevelComposer.Compose(sceneId, catalog, null);
             }
 

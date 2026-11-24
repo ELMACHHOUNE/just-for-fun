@@ -193,6 +193,7 @@ namespace LWalida.EditorTools
             AssignSprite(ref catalog.memorySouk, "memorySouk");
 
             AssignSprite(ref catalog.logoEmblem, "logoEmblem");
+            AssignSprite(ref catalog.titleArabic, "titleArabic");
             AssignSprite(ref catalog.menuBackground, "menuBackground");
             AssignSprite(ref catalog.panelDark, "panelDark");
             AssignSprite(ref catalog.panelLight, "panelLight");

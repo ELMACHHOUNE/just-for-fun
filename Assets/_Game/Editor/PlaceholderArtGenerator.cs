@@ -674,7 +674,7 @@ namespace LWalida.EditorTools
             "doorCorrect", "doorWrong01", "doorWrong02", "photoProp", "referencePhoto", "teaSet",
             "flowerpot", "bougainvillea", "stall", "exitMarker", "soundMarker",
             "memoryCafe", "memoryDoor", "memoryAmina", "memorySouk",
-            "logoEmblem", "menuBackground", "panelDark", "panelLight", "paperTexture", "zelligePattern",
+            "logoEmblem", "titleArabic", "menuBackground", "panelDark", "panelLight", "paperTexture", "zelligePattern",
             "vignette", "grain", "iconCamera", "iconJournal", "iconRecord", "iconLock", "iconAudio",
             "whitePixel"
         };

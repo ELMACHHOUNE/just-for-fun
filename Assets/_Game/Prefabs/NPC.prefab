@@ -101,7 +101,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8790808163620792620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b4b7beba97395c469e3e9f2e1f697c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 1366fe1a262720143902733688f53cb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: LWalida.Runtime::LWalida.NpcInteractable
   displayName: Object

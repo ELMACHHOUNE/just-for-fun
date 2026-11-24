@@ -2,11 +2,6 @@ using UnityEngine;
 
 namespace LWalida
 {
-    public class LevelContentMarker : MonoBehaviour
-    {
-        public string sceneId;
-    }
-
     public class SceneBootstrap : MonoBehaviour
     {
         [SerializeField] private string sceneId = SceneIds.CafeMaure;

@@ -61,7 +61,7 @@ MonoBehaviour:
   memoryAmina: {fileID: 21300000, guid: 5e2b666704b252b4993403bb75fb41fc, type: 3}
   memorySouk: {fileID: 21300000, guid: 0e9f7251314fdc944b0dedd1f844c8b5, type: 3}
   logoEmblem: {fileID: 21300000, guid: 7feb80e75a9ced141b0f6229afbbeaa1, type: 3}
-  titleArabic: {fileID: 0}
+  titleArabic: {fileID: 21300000, guid: 3daa544f2f655d74e951efc2c8eebb87, type: 3}
   menuBackground: {fileID: 21300000, guid: ccc23a72560ab02469dd8bcc55483054, type: 3}
   panelDark: {fileID: 21300000, guid: e63d966362c426f48a5876451bf9a9a0, type: 3}
   panelLight: {fileID: 21300000, guid: 782cc519465b348458a8efca78ab0ca2, type: 3}

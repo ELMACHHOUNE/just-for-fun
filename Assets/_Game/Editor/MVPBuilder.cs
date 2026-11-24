@@ -129,7 +129,9 @@ namespace LWalida.EditorTools
             AssetDatabase.Refresh();
 
             var catalog = DataAssetFactory.BuildAll();
+            Debug.Log("[LWalida Diagnose] BuildCore catalog=" + (catalog != null));
             PrefabFactory.BuildAll(catalog);
+            Debug.Log("[LWalida Diagnose] After prefabs catalog=" + (catalog != null));
             SceneFactory.BuildAll(catalog, overwriteScenes);
             ApplyPlayerSettings();
             AssetDatabase.SaveAssets();
@@ -178,6 +180,44 @@ namespace LWalida.EditorTools
                 Debug.LogException(exception);
                 EditorApplication.Exit(1);
             }
+        }
+
+        [MenuItem("LWalida/Batch/Rebuild All", priority = 83)]
+        public static void BatchRebuildAll()
+        {
+            try
+            {
+                var catalog = BuildCore(true);
+                bool ok = ProjectValidator.ValidateAndLog(catalog);
+                EditorApplication.Exit(ok ? 0 : 1);
+            }
+            catch (System.Exception exception)
+            {
+                Debug.LogException(exception);
+                EditorApplication.Exit(1);
+            }
+        }
+
+        [MenuItem("LWalida/Batch/Diagnose Sprites", priority = 84)]
+        public static void BatchDiagnoseSprites()
+        {
+            var catalog = AssetDatabase.LoadAssetAtPath<AssetCatalog>(LWalidaPaths.CatalogPath);
+            Debug.Log("[LWalida Diagnose] catalog=" + (catalog != null));
+            if (catalog != null)
+            {
+                Debug.Log("[LWalida Diagnose] playerIdle=" + (catalog.playerIdle != null) +
+                          " envCafe=" + (catalog.envCafe != null) +
+                          " photoProp=" + (catalog.photoProp != null) +
+                          " whitePixel=" + (catalog.whitePixel != null));
+                Debug.Log("[LWalida Diagnose] playerPrefab=" + (catalog.playerPrefab != null) +
+                          " propPrefab=" + (catalog.propPrefab != null));
+            }
+            var loaded = AssetDatabase.LoadAssetAtPath<Sprite>(PlaceholderArtGenerator.PathFor("playerIdle"));
+            Debug.Log("[LWalida Diagnose] directLoad playerIdle=" + (loaded != null) +
+                      " path=" + PlaceholderArtGenerator.PathFor("playerIdle"));
+            var env = AssetDatabase.LoadAssetAtPath<Sprite>(LWalidaPaths.EnvironmentArt + "/cafe_maure.jpg");
+            Debug.Log("[LWalida Diagnose] directLoad envCafe=" + (env != null));
+            EditorApplication.Exit(0);
         }
 
         [MenuItem("LWalida/Batch/Build Windows", priority = 82)]
